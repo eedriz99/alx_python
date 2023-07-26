@@ -1,6 +1,6 @@
 def arguments(args):
     if len(args) <= 1:
-        print("{} argument:".format(len(args)))
+        print("{} arguments.".format(len(args)))
     else:
         print("{} arguments:".format(len(args)))
     for arg in args:
