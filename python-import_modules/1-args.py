@@ -11,4 +11,4 @@ def arguments(args):
 
 if __name__ == "__main__":
     import sys
-    arguments(sys.argv)
+    arguments(sys.argv[1:])
