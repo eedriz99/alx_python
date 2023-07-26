@@ -1,3 +1,2 @@
 def raise_exception():
-    try:
-        raise Exception
+    return "a" + 2

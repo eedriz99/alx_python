@@ -1,4 +1,4 @@
-def arguments(*args):
+def arguments(args):
     if len(args) <= 1:
         print("{} argument:".format(len(args)))
     else:
@@ -6,11 +6,7 @@ def arguments(*args):
     for arg in args:
         index = args.index(arg)
         print("{}: {}".format(index + 1, arg))
-        # n = 0
-        # while n < len(args):
-        #     print("{}: {}".format(index + 1, arg))
-        #     n += 1
 
 if __name__ == "__main__":
     import sys
-    arguments(sys.argv)
+    arguments(sys.argv[1:])
