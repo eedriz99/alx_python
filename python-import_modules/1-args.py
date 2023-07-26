@@ -1,5 +1,7 @@
 def arguments(args):
-    if len(args) <= 1:
+    if len(args) == 1:
+        print("{} argument:".format(len(args)))
+    elif len(args) < 1:
         print("{} arguments.".format(len(args)))
     else:
         print("{} arguments:".format(len(args)))
@@ -9,4 +11,4 @@ def arguments(args):
 
 if __name__ == "__main__":
     import sys
-    arguments(sys.argv[1:])
+    arguments(sys.argv)
