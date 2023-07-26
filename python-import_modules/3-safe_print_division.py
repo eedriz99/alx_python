@@ -1,5 +1,5 @@
 def safe_print_division(a, b):
-        result = a / b
+    result = a / b
     try:
         return result
     except ZeroDivisionError:
