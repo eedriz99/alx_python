@@ -11,4 +11,6 @@ def arguments(*args):
         #     print("{}: {}".format(index + 1, arg))
         #     n += 1
 
-arguments("hello")
+if __name__ == "__main__":
+    import sys
+    arguments(sys.argv)
